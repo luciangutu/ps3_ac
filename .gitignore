@@ -1,2 +1,4 @@
 *.pdf
 config.py
+/.idea
+/__pycache__
