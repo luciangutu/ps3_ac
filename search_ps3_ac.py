@@ -8,10 +8,13 @@ from PyPDF2 import PdfReader
 import json
 import os
 import config
+import datetime
 
+today = datetime.date.today()
+year = today.year
 
 for x in range(1, 13):
-    ac_file = f'AC_2023_{x}.pdf'
+    ac_file = f'AC_{year}_{x}.pdf'
     if not os.path.exists(ac_file) or (os.path.exists(ac_file) and os.path.getsize(ac_file) == 0):
         # PDF file from a URL
         url = f'https://www.primarie3.ro/images/uploads/formulare/{ac_file}'
