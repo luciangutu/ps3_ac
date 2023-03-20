@@ -1,6 +1,7 @@
 # ps3_ac
-This script is searching for "Autorizatii de construire" from Primaria sector 3 website
-Gets all the PDF files from the current year.
+This script is searching for "Autorizatii de construire" from Primaria sector 3 website.
+
+Looks through all the PDF files from the current year for the ACs.
 
 Example:
 ```
