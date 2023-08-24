@@ -2,3 +2,6 @@
 config.py
 /.idea
 /__pycache__
+/venv
+requirements.in
+requirements.txt
